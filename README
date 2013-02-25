@@ -1,0 +1,23 @@
+NAME
+    Term::Spark
+
+SYNOPSIS
+    Displays beautiful graphs to use in the terminal
+
+DESCRIPTION
+  METHODS
+NAME
+    Term::Spark - Perl extension for dispaying bars in the terminal
+
+SEE ALSO
+    Vertical mode: https://github.com/LuRsT/vspark
+
+AUTHOR
+    Gil Gonçalves <lurst@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Gil Gonçalves.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
