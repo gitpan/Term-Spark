@@ -15,6 +15,7 @@ my @modules = qw(
   File::Spec::Functions
   File::Temp
   List::Util
+  Sub::Exporter
   Test::More
   perl
   strict

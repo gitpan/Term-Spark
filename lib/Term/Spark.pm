@@ -3,9 +3,13 @@ package Term::Spark;
 use strict;
 use warnings;
 
+use Sub::Exporter -setup => {
+    'exports' => [ 'show_bar', 'show_graph' ],
+};
+
 our @ISA = qw();
 
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.20'; # VERSION
 
 sub show_bar {
     my $num = shift;

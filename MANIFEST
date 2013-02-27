@@ -4,6 +4,7 @@ META.json
 META.yml
 Makefile.PL
 README
+bin/show_graph.pl
 dist.ini
 lib/Term/Spark.pm
 t/00-compile.t

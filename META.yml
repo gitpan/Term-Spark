@@ -29,8 +29,9 @@ no_index:
 provides:
   Term::Spark:
     file: lib/Term/Spark.pm
-    version: 0.02
+    version: 0.20
 requires:
+  Sub::Exporter: 0
   perl: 5.006
   strict: 0
   warnings: 0
@@ -38,4 +39,6 @@ resources:
   bugtracker: https://github.com/LuRsT/term-spark/issues
   homepage: https://metacpan.org/release/Term-Spark
   repository: git://github.com/LuRsT/term-spark.git
-version: 0.02
+version: 0.20
+x_contributors:
+  - 'Gilberto Gonçalves <lursty@gmail.com>'
