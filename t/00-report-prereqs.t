@@ -19,6 +19,7 @@ my @modules = qw(
   Test::More
   perl
   strict
+  utf8
   warnings
 );
 

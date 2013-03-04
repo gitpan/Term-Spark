@@ -1,6 +1,6 @@
 use Term::Spark qw{ show_graph };
 
-our $VERSION = '0.20'; # VERSION
+our $VERSION = '0.21'; # VERSION
 # PODNAME: show_graph
 
 chomp( @ARGV = <STDIN> ) unless @ARGV;

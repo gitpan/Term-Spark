@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.006;
+use 5.008;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -31,9 +31,10 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Sub::Exporter" => 0,
     "strict" => 0,
+    "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.20",
+  "VERSION" => "0.21",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -2,6 +2,7 @@ package Term::Spark;
 
 use strict;
 use warnings;
+use utf8;
 
 use Sub::Exporter -setup => {
     'exports' => [ 'show_bar', 'show_graph' ],
@@ -9,7 +10,7 @@ use Sub::Exporter -setup => {
 
 our @ISA = qw();
 
-our $VERSION = '0.20'; # VERSION
+our $VERSION = '0.21'; # VERSION
 
 sub show_bar {
     my $num = shift;
