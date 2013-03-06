@@ -1,7 +1,14 @@
+#!/usr/bin/env perl
+
 use Term::Spark qw{ show_graph };
 
-our $VERSION = '0.21'; # VERSION
+use strict;
+use warnings;
+
+our $VERSION = '0.25'; # VERSION
 # PODNAME: show_graph
+
+binmode STDOUT, ':encoding(UTF-8)';
 
 chomp( @ARGV = <STDIN> ) unless @ARGV;
 
@@ -10,7 +17,7 @@ my @list = sort { $a <=> $b } @ARGV;
 print show_graph(
     'max'     => $list[-1],
     'values'  => \@ARGV,
-);
+), "\n";
 
 __END__
 
